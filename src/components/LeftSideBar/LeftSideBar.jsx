@@ -9,7 +9,7 @@ const LeftSideBar = ({sideBar, setSideBar}) => {
             {sideBar && <div
                 onClick={() => setSideBar(false)}
                 className='z-40 fixed top-0 left-0 w-full h-full bg-black bg-opacity-30'></div>}
-            <div className={`w-[250px] fixed top-0 left-0 z-50 bg-white h-screen md:static duration-500  md:border-r-2 flex flex-col ${sideBar ? 'left-0' : '-left-[250px]'}`}>
+            <div className={`w-[250px] fixed top-0  z-50 bg-white h-screen md:static duration-500  md:border-r-2 flex flex-col ${sideBar ? 'left-0' : '-left-[250px]'}`}>
                 <div className='p-4'>
                     <img src={logo} className='w-20' alt="" />
                 </div>

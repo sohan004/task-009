@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div className="h-screen overflow-y-auto flex">
 
-<LeftSideBar sideBar={sideBar} setSideBar={setSideBar} />
+      <LeftSideBar sideBar={sideBar} setSideBar={setSideBar} />
 
       <div className="flex-1 p-4 flex flex-col overflow-y-auto">
         <div className='flex items-center  justify-between md:justify-end'>
@@ -28,7 +28,7 @@ const App = () => {
             <TfiReload className='w-20 py-2 bg-white shadow-md rounded-sm text-[#A1045A] text-3xl shadow-gray-300' />
           </div>
         </div>
-        <div className='grid grid-cols-1  md:grid-cols-2 mt-10 flex-1'>
+        <div className='md:grid grid-cols-1  md:grid-cols-2 mt-10 flex-1'>
           <div className='md:pr-5 md:border-r border-b pb-5 mb-5 md:border-b-0 md:pb-0 md:mb-0'>
             <h2 className='text-2xl font-bold '>New <sub className='font-medium text-[#A1045A]'>2</sub></h2>
             <div className='mt-5 grid gap-5'>
